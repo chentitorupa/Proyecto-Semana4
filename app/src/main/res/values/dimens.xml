@@ -21,4 +21,13 @@
     <dimen name="civ_shadow">10dp</dimen>
     <dimen name="civ_text">28sp</dimen>
 
+
+    <dimen name="tituloBiografia">50dp</dimen>
+    <dimen name="rellenotitleacerca">25dp</dimen>
+    <dimen name="sizeacerca">20dp</dimen>
+
+    <dimen name="icon_name">55dp</dimen>
+    <dimen name="icon_contact">55dp</dimen>
+    <dimen name="corner_button">50dp</dimen>
+
 </resources>

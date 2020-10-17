@@ -99,7 +99,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if(id == R.id.mAbout){
-            IngresaraAcercaDe(null);
+            Intent intent3 = new Intent(this, AboutActivity.class);
+            startActivity(intent3);
             return true;
         }
 
@@ -107,16 +108,11 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void IngresaraAcercaDe(View view){
-        Intent intent = new Intent(this, AboutActivity.class);
-        startActivity(intent);
-    }
 
     public void IngresaraFormularioContacto(View view){
         Intent intent = new Intent(this, ContactoActivity.class);
         startActivity(intent);
     }
-
 
 
 
